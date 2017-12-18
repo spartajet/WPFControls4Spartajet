@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPFControls4Spartajet.Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFControls4Spartajet.Test"
+        xmlns:layout="clr-namespace:WPFControls4Spartajet.Layout;assembly=WPFControls4Spartajet"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TabControl Name="ContentTabControl" Grid.Row="1">
+            <layout:ClosableTab Title="欢迎界面">
+                <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Label Content="欢迎使用感光元件综合测试系统" />
+                </Grid>
+            </layout:ClosableTab>
+        </TabControl>
+    </Grid>
+</Window>
+
